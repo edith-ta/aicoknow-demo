@@ -8,9 +8,9 @@ This is a simple Flask web application that allows semantic search of embeddings
 2. Clone this repository.
 
 3. Navigate into the project directory.
-```
-$ cd 
-```
+    ```
+    $ cd aicoknow-demo-master
+    ```
 
 4. Create a new virtual envrionment.
 ```
