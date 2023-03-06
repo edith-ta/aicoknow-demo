@@ -41,4 +41,4 @@ This is a simple Flask web application that allows semantic search of embeddings
 10.Click the JuiceUpJuicy button and add a new piece of knowledge in the box at the bottom right corner. 
 ![New Knowledge](3_fresh_up.png)
 
-All is done.
+All done.
