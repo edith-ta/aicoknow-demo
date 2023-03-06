@@ -30,4 +30,8 @@ This is a simple Flask web application that allows semantic search of embeddings
     flask run
     ```
 
-You should be able to access the app at http://127.0.0.1:5000.
+    You should be able to access the app at http://127.0.0.1:5000.
+    
+8. Type in your keyword and click the Search icon.
+    ![Type In Keyword](1_keyword.png)
+    
