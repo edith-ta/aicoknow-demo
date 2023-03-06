@@ -13,21 +13,21 @@ This is a simple Flask web application that allows semantic search of embeddings
     ```
 
 4. Create a new virtual envrionment.
-```
-$ python -m venv venv
-$ . venv/Scripts/activate
-```
+    ```
+    $ python -m venv venv
+    $ . venv/Scripts/activate
+    ```
 
 5. Install the requirements
-```
-$ .env install -r requirements.txt
-```
+    ```
+    $ pip install -r requirements.txt
+    ```
 
-6. Add your API key to the Config.py file.
+6. Add your own API key to the config.py file.
 
 7. Run the app
-```
-flask run
-```
+    ```
+    flask run
+    ```
 
 You should be able to access the app at http://127.0.0.1:5000.
