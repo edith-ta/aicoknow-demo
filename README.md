@@ -35,7 +35,7 @@ This is a simple Flask web application that allows semantic search of embeddings
 8. Type in your keyword and click the Search icon.
     ![Type In Keyword](1_keyword.png)
 
-9. The browser immediately redirect itself to show the closest matches.
+9. The browser immediately redirects itself to show the closest matches.
     ![Search Result](2_keyword_results.png)
 
 10.Click the JuiceUpJuicy button and add a new piece of knowledge in the box at the bottom right corner. 
