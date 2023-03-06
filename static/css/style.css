@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,600;1,900&display=swap');
+
+:root {
+  --primary-color: #35A94F;
+}
+
+body {
+  background: #FFF;
+  color: #333;
+  font-family: arial;
+  text-align: center;
+  font-family: 'Poppins',
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+h2 {
+  margin-top: 10px;
+  max-width:  800px;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+#container > p {
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+#logo {
+  width: 450px;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom:20px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  padding: 18px 5px;
+  font-size: 16px;
+  outline: none;
+  border: 0.5px solid #eee;
+}
+
+input[type=submit] {
+  background: black;
+  color: white;
+  border: solid white 1px;
+}
+
+/* BTNS */
+.btns {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rowcontainer-align-center {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.chat-btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.chat-btn:hover {
+  opacity: 0.9
+}
+
+.chat-box {
+  position: fixed;
+  bottom: -100%;
+  right: 30px;
+  width: 450px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  box-sizing: border-box;
+  display: block;
+  transition: bottom 0.3s ease-in-out;
+  color: var(--primary-color)
+}
+
+.show {
+  bottom: 0;
+}
+
+.chat-box > h4 {
+  gap: 20px;
+}
+
+.qa-form {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.qa-form input,
+.qa-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  display: block;
+  font-size: 14px;
+}
+
+.qa-form input[type="text"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.qa-form input[type="text"]:focus, {
+  border-color: #888;
+}
+
+.qa-form input[type="submit"] {
+  background: var(--primary-color);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.qa-form input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.input-textarea {
+  resize: none;
+  border: 1px solid #ccc;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  /* overflow: hidden; */
+}
+
+textarea.input-textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+textarea.input-textarea::-webkit-scrollbar-thumb {
+  background-color: #35A94F;
+  border-radius: 5px;
+}
+
+/* Buttons' focus effect */
+.qa-form input[type="submit"]:focus {
+  border-color: var(--primary-color);
+}
+
+#results {
+  text-align: left;
+  width: 800px;
+  border: solid white 1px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}

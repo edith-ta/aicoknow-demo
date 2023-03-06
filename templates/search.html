@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <!-- http://127.0.0.1:5000/search?query=ajax+bar -->
+    <h1>Search Results for "{{ query }}"</h1>
+    {% if results %}
+    <ul>
+      {% for result in results %}
+      <li>{{ result }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No results found</p>
+    {% endif %}
+  </body>
+</html>
